@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "vux-tooling-tfstate"
     prefix = "env/prod"
   }
 }
